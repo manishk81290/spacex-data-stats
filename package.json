@@ -1,0 +1,29 @@
+{
+  "name": "spacex-data-stats",
+  "version": "1.0.0",
+  "description": "Load SpaceX Launch Mission lists",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishk81290/spacex-data-stats.git"
+  },
+  "author": "Manish Vig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manishk81290/spacex-data-stats/issues"
+  },
+  "homepage": "https://github.com/manishk81290/spacex-data-stats#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
